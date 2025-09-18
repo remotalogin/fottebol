@@ -7,11 +7,11 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/cassino-football.php"
+      "dest": "api/cassino-football.php"
     },
     {
-      "src": "/footballstudio-brbet.php",
-      "dest": "/footballstudio-brbet.php"
+      "src": "api/footballstudio-brbet.php",
+      "dest": "api/footballstudio-brbet.php"
     }
   ]
 }
