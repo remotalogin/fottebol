@@ -18,18 +18,6 @@
 </script>  </head>
   <body>
     <div class="header">
-        <script>
-setInterval(() => {
-    fetch('../verificaChaveAcesso.php')
-        .then(response => response.json())
-        .then(data => {
-            if (data.status === 'logout') {
-                // Redireciona para logout.php ou outra página de saída
-                window.location.href = 'logoff.php';
-            }
-        });
-}, 10000); // 10 segundos
-</script>
 <div class="container">
     <div class="row align-items-center">
         <div class="col-md-4 col-8 logo">
