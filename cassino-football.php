@@ -1,17 +1,13 @@
-
 <!doctype html>
 <html lang="pt-br">
   <head>
     <title>Catalogador - Football Studio</title>
-    <!-- Required meta tags -->
-<meta charset="utf-8">
+    <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="css/style.css">
 
-<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWE8WDS9LP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -42,9 +38,6 @@ setInterval(() => {
         <div class="col-md-4 col-4 navbar" id="menu">
             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             <nav class="nav-links" id="navLinks">
-                <!-- <a href="cassino-football.php">Football Studio</a>
-                <a href="cassino-bacbo.php">Bac Bo</a>
-                <a  href="cassino-baccarat.php">Baccarat</a> -->
                 <a  href="logoff.php" class="d-md-none d-sm-block">Sair</a>
             </nav>
         </div>
@@ -55,7 +48,7 @@ setInterval(() => {
             </a>
         </div>
     </div>
-</div>        <div class="sugestao">
+</div>      <div class="sugestao">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-auto" id="martingale-result">
@@ -97,10 +90,7 @@ setInterval(() => {
                     <label for="minOcorrencias">Ocorrências Mín.:</label>
                     <input type="number" id="minOcorrencias" value="15" min="1">
                 </div>
-                <!-- <div class="col-auto botao">
-                    <button onclick="carregarDados()">Atualizar Dados</button>
-                </div> -->
-            </div>
+                </div>
         </div>
         <div class="container mt-3 mb-4">
             <div class="row maximas justify-content-between">
@@ -156,8 +146,6 @@ setInterval(() => {
     </div>
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -166,6 +154,7 @@ setInterval(() => {
     function toggleMenu() {
         document.getElementById('navLinks').classList.toggle('active');
     }
-</script>    <script src="https://fottebol.vercel.app/footballstudio-brbet.php"></script>
+</script>    
+<script src="footballstudio-brbet.php"></script>
   </body>
 </html>
