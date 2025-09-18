@@ -1,13 +1,17 @@
 {
   "functions": {
-    "api/*.php": {
+    "*.php": {
       "runtime": "vercel-php@0.7.4"
     }
   },
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/api/footballstudio-brbet.php"
+      "src": "/",
+      "dest": "/cassino-football.php"
+    },
+    {
+      "src": "/footballstudio-brbet.php",
+      "dest": "/footballstudio-brbet.php"
     }
   ]
 }
