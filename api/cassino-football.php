@@ -144,6 +144,6 @@
       }
     </script>
 
-    <script src="api/footballstudio-brbet.php"></script>
+    <script src="/api/footballstudio-brbet.php"></script>
   </body>
 </html>
